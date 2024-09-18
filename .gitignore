@@ -1,0 +1,24 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore PHPUnit and other testing directories
+/tests/
+
+# Ignore local environment files
+.env
+
+# Ignore logs and other runtime files
+*.log
+*.sql
+*.sqlite
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+/build/
